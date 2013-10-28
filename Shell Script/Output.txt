@@ -1,0 +1,5 @@
+The number of matched a is 4
+The number of matched   is 14
+The number of matched   is 14
+The number of matched y is 4
+The number of matched y is 4

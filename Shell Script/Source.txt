@@ -1,0 +1,5 @@
+My name is Herbe.
+I'm a boy.
+This file is used to test SearchAndCount.sh.
+Are you ready?
+Let's go!
