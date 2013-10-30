@@ -1,0 +1,17 @@
+<head>
+	<title>Information</title>
+</head>
+<body>
+	<h1>Informations of My Collegues</h1>
+	<table border="1" cellpadding="10" cellspacing="5" bordercolor="red">
+	<tr align="center"><td>Name</td><td>Gender</td><td>Number</td><td>Popo</td><td>Phone</td></tr>
+	{% for k in information_list %}
+	<tr><td>{{k.name}}</td><td>{{k.sex}}</td><td>{{k.number}}</td><td>{{k.popo}}</td><td>{{k.phone}}</td></tr>
+	{% endfor %}
+	</table>
+	<input type=button onclick="window.location.href='http://127.0.0.1:8000/information/add'" value="Add" style="width:100px;"/>
+	<input type=button onclick="window.location.href='http://127.0.0.1:8000/admin'" value="Admin" style="width:100px;"/>
+	<hr>
+	<p>Have a good day.</p>
+</body>
+</html>
